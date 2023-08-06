@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
               isFirst: false,
               isLast: false,
               isPast: true,
-              eventCard: Text("ORDER CONFIRMED"),
+              eventCard: Text("ORDER CONFIRMED", style: TextStyle(color: Colors.white),),
             ),
             TimeLineTile(
                 isFirst: false,
